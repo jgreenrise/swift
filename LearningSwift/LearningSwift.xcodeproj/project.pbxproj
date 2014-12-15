@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		377ACCE81A3E584300E952BD /* IfStatements.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IfStatements.playground; sourceTree = "<group>"; };
 		37D94DEF1A3CF68200CA8F19 /* LearningSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D94DF31A3CF68200CA8F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37D94DF41A3CF68200CA8F19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +63,7 @@
 		37D94DE61A3CF68200CA8F19 = {
 			isa = PBXGroup;
 			children = (
+				377ACCE81A3E584300E952BD /* IfStatements.playground */,
 				37D94E151A3CFBC900CA8F19 /* Readme.md */,
 				37D94E141A3CF71C00CA8F19 /* MyPlayground.playground */,
 				37D94DF11A3CF68200CA8F19 /* LearningSwift */,
@@ -411,6 +413,7 @@
 				37D94E101A3CF68200CA8F19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37D94E111A3CF68200CA8F19 /* Build configuration list for PBXNativeTarget "LearningSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +422,7 @@
 				37D94E131A3CF68200CA8F19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,10 +18,18 @@ class ViewController: UIViewController {
     @IBAction func findAge(sender: AnyObject) {
         
         var age = inputText.text.toInt();
-        age = age! * 2
         
-        message.text = "Your cat is \(age!) years old"
+        if((age) != nil)
+        {
+            age = age! * 2
+            
+            message.text = "Your cat is \(age!) years old"
+            
+        }else{
+            message.text = "Enter valid number"
+        }
         
+  
         println(message.text)
     }
 
