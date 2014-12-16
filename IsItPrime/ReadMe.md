@@ -1,4 +1,4 @@
-This app calculates checks, whether entered number is prime or not.
+This app checks, whether entered number is prime or not.
 
 ![alt tag](ScreenShot_1.png)
 
