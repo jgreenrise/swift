@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		378F63071A401ADA00C6FA72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378F63061A401ADA00C6FA72 /* AppDelegate.swift */; };
+		378F63091A401ADA00C6FA72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378F63081A401ADA00C6FA72 /* ViewController.swift */; };
+		378F630C1A401ADA00C6FA72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378F630A1A401ADA00C6FA72 /* Main.storyboard */; };
+		378F630E1A401ADA00C6FA72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378F630D1A401ADA00C6FA72 /* Images.xcassets */; };
+		378F63111A401ADA00C6FA72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 378F630F1A401ADA00C6FA72 /* LaunchScreen.xib */; };
+		378F631D1A401ADA00C6FA72 /* TextToSpeechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378F631C1A401ADA00C6FA72 /* TextToSpeechTests.swift */; };
+		378F632B1A401D3800C6FA72 /* Siri-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 378F632A1A401D3800C6FA72 /* Siri-icon.png */; };
+		378F632D1A401E1400C6FA72 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378F632C1A401E1400C6FA72 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		378F63171A401ADA00C6FA72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 378F62F91A401ADA00C6FA72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 378F63001A401ADA00C6FA72;
+			remoteInfo = TextToSpeech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		378F63011A401ADA00C6FA72 /* TextToSpeech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextToSpeech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		378F63051A401ADA00C6FA72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378F63061A401ADA00C6FA72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		378F63081A401ADA00C6FA72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		378F630B1A401ADA00C6FA72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		378F630D1A401ADA00C6FA72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		378F63101A401ADA00C6FA72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		378F63161A401ADA00C6FA72 /* TextToSpeechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextToSpeechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		378F631B1A401ADA00C6FA72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378F631C1A401ADA00C6FA72 /* TextToSpeechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechTests.swift; sourceTree = "<group>"; };
+		378F632A1A401D3800C6FA72 /* Siri-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Siri-icon.png"; path = "../../../../../../../../../Downloads/Siri-icon.png"; sourceTree = "<group>"; };
+		378F632C1A401E1400C6FA72 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		378F62FE1A401ADA00C6FA72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378F632D1A401E1400C6FA72 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378F63131A401ADA00C6FA72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		378F62F81A401ADA00C6FA72 = {
+			isa = PBXGroup;
+			children = (
+				378F632C1A401E1400C6FA72 /* AVFoundation.framework */,
+				378F63031A401ADA00C6FA72 /* TextToSpeech */,
+				378F63191A401ADA00C6FA72 /* TextToSpeechTests */,
+				378F63021A401ADA00C6FA72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		378F63021A401ADA00C6FA72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				378F63011A401ADA00C6FA72 /* TextToSpeech.app */,
+				378F63161A401ADA00C6FA72 /* TextToSpeechTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		378F63031A401ADA00C6FA72 /* TextToSpeech */ = {
+			isa = PBXGroup;
+			children = (
+				378F632A1A401D3800C6FA72 /* Siri-icon.png */,
+				378F63061A401ADA00C6FA72 /* AppDelegate.swift */,
+				378F63081A401ADA00C6FA72 /* ViewController.swift */,
+				378F630A1A401ADA00C6FA72 /* Main.storyboard */,
+				378F630D1A401ADA00C6FA72 /* Images.xcassets */,
+				378F630F1A401ADA00C6FA72 /* LaunchScreen.xib */,
+				378F63041A401ADA00C6FA72 /* Supporting Files */,
+			);
+			path = TextToSpeech;
+			sourceTree = "<group>";
+		};
+		378F63041A401ADA00C6FA72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				378F63051A401ADA00C6FA72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		378F63191A401ADA00C6FA72 /* TextToSpeechTests */ = {
+			isa = PBXGroup;
+			children = (
+				378F631C1A401ADA00C6FA72 /* TextToSpeechTests.swift */,
+				378F631A1A401ADA00C6FA72 /* Supporting Files */,
+			);
+			path = TextToSpeechTests;
+			sourceTree = "<group>";
+		};
+		378F631A1A401ADA00C6FA72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				378F631B1A401ADA00C6FA72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		378F63001A401ADA00C6FA72 /* TextToSpeech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378F63201A401ADA00C6FA72 /* Build configuration list for PBXNativeTarget "TextToSpeech" */;
+			buildPhases = (
+				378F62FD1A401ADA00C6FA72 /* Sources */,
+				378F62FE1A401ADA00C6FA72 /* Frameworks */,
+				378F62FF1A401ADA00C6FA72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextToSpeech;
+			productName = TextToSpeech;
+			productReference = 378F63011A401ADA00C6FA72 /* TextToSpeech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		378F63151A401ADA00C6FA72 /* TextToSpeechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378F63231A401ADA00C6FA72 /* Build configuration list for PBXNativeTarget "TextToSpeechTests" */;
+			buildPhases = (
+				378F63121A401ADA00C6FA72 /* Sources */,
+				378F63131A401ADA00C6FA72 /* Frameworks */,
+				378F63141A401ADA00C6FA72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				378F63181A401ADA00C6FA72 /* PBXTargetDependency */,
+			);
+			name = TextToSpeechTests;
+			productName = TextToSpeechTests;
+			productReference = 378F63161A401ADA00C6FA72 /* TextToSpeechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		378F62F91A401ADA00C6FA72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = GGR;
+				TargetAttributes = {
+					378F63001A401ADA00C6FA72 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					378F63151A401ADA00C6FA72 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 378F63001A401ADA00C6FA72;
+					};
+				};
+			};
+			buildConfigurationList = 378F62FC1A401ADA00C6FA72 /* Build configuration list for PBXProject "TextToSpeech" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 378F62F81A401ADA00C6FA72;
+			productRefGroup = 378F63021A401ADA00C6FA72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				378F63001A401ADA00C6FA72 /* TextToSpeech */,
+				378F63151A401ADA00C6FA72 /* TextToSpeechTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		378F62FF1A401ADA00C6FA72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378F632B1A401D3800C6FA72 /* Siri-icon.png in Resources */,
+				378F630C1A401ADA00C6FA72 /* Main.storyboard in Resources */,
+				378F63111A401ADA00C6FA72 /* LaunchScreen.xib in Resources */,
+				378F630E1A401ADA00C6FA72 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378F63141A401ADA00C6FA72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		378F62FD1A401ADA00C6FA72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378F63091A401ADA00C6FA72 /* ViewController.swift in Sources */,
+				378F63071A401ADA00C6FA72 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378F63121A401ADA00C6FA72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378F631D1A401ADA00C6FA72 /* TextToSpeechTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		378F63181A401ADA00C6FA72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 378F63001A401ADA00C6FA72 /* TextToSpeech */;
+			targetProxy = 378F63171A401ADA00C6FA72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		378F630A1A401ADA00C6FA72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378F630B1A401ADA00C6FA72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		378F630F1A401ADA00C6FA72 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378F63101A401ADA00C6FA72 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		378F631E1A401ADA00C6FA72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		378F631F1A401ADA00C6FA72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		378F63211A401ADA00C6FA72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextToSpeech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		378F63221A401ADA00C6FA72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextToSpeech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		378F63241A401ADA00C6FA72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TextToSpeechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextToSpeech.app/TextToSpeech";
+			};
+			name = Debug;
+		};
+		378F63251A401ADA00C6FA72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TextToSpeechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextToSpeech.app/TextToSpeech";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		378F62FC1A401ADA00C6FA72 /* Build configuration list for PBXProject "TextToSpeech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378F631E1A401ADA00C6FA72 /* Debug */,
+				378F631F1A401ADA00C6FA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378F63201A401ADA00C6FA72 /* Build configuration list for PBXNativeTarget "TextToSpeech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378F63211A401ADA00C6FA72 /* Debug */,
+				378F63221A401ADA00C6FA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		378F63231A401ADA00C6FA72 /* Build configuration list for PBXNativeTarget "TextToSpeechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378F63241A401ADA00C6FA72 /* Debug */,
+				378F63251A401ADA00C6FA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 378F62F91A401ADA00C6FA72 /* Project object */;
+}
